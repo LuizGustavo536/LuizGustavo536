@@ -20,6 +20,9 @@
 <!-- 🌐 BADGES DE STATUS & LINKS                                               -->
 <!-- ========================================================================= -->
 <div align="center">
+  <a href="https://luizgustavo536.github.io/portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio%20Web-Online-58a6ff?style=for-the-badge&logo=safari&logoColor=white" alt="Portfólio Web" />
+  </a>
   <a href="https://newfire.top" target="_blank">
     <img src="https://img.shields.io/badge/Website-newfire.top-8957E5?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
@@ -213,6 +216,9 @@ Confira alguns dos principais projetos públicos e soluções desenvolvidas:
 Tem alguma ideia de projeto, precisa de uma API sob medida ou automação inteligente? Fique à vontade para entrar em contato:
 
 <div align="center">
+  <a href="https://luizgustavo536.github.io/portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar-Portf%C3%B3lio%20Web-58a6ff?style=for-the-badge&logo=safari&logoColor=white" alt="Portfólio Web" />
+  </a>
   <a href="https://newfire.top" target="_blank">
     <img src="https://img.shields.io/badge/Acessar-newfire.top-8957E5?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Site Oficial" />
   </a>
