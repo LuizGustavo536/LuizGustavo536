@@ -2,7 +2,7 @@
 <!-- 🚀 CABEÇALHO ANIMADO (NEWFIRE DOCS PALETTE)                               -->
 <!-- ========================================================================= -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06060e,45:0077ff,80:00d4ff,100:06060e&height=220&section=header&text=Luiz%20Gustavo&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20Full%20Stack%20%7C%20APIs%20REST%20%7C%20Automa%C3%A7%C3%A3o%20%7C%20Sistemas%20em%20Nuvem&descAlignY=62&descSize=18&animation=fadeIn" alt="Header Banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06060e,45:0077ff,80:00d4ff,100:06060e&height=220&section=header&text=Luiz%20Gustavo&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20Backend%20%26%20Full%20Stack%20%7C%20Node.js%20%7C%20Python%20%7C%20VPS%20Linux%20%7C%20Nginx%20%26%20Docker&descAlignY=62&descSize=17&animation=fadeIn" alt="Header Banner" />
 </div>
 
 <!-- ========================================================================= -->
@@ -10,7 +10,7 @@
 <!-- ========================================================================= -->
 <div align="center">
   <a href="https://github.com/LuizGustavo536">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Ol%C3%A1!+Eu+sou+o+Luiz+Gustavo+%F0%9F%91%8B;Desenvolvedor+Full+Stack+%26+Especialista+em+Backend+%F0%9F%9A%80;Construindo+APIs+R%C3%A1pidas%2C+Bots+%26+Sistemas+Escal%C3%A1veis+%E2%9A%A1;Python+%7C+FastAPI+%7C+Node.js+%7C+Web+%26+Cloud+%F0%9F%92%BB" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Ol%C3%A1!+Eu+sou+o+Luiz+Gustavo+%F0%9F%91%8B;Desenvolvedor+Backend+%26+Full+Stack+%F0%9F%9A%80;Especialista+em+Node.js+%26+Python+%E2%9A%A1;Servidores+VPS+Linux%2C+Nginx%2C+PM2+%26+Docker+%F0%9F%90%A7;APIs+de+Alta+Performance+%26+Automa%C3%A7%C3%A3o+%F0%9F%92%BB" alt="Typing SVG" />
   </a>
 </div>
 
@@ -26,9 +26,7 @@
   <a href="https://newfire.top" target="_blank">
     <img src="https://img.shields.io/badge/Website-newfire.top-0077ff?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
-  <a href="https://github.com/LuizGustavo536" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Perfil-0e0e1c?style=for-the-badge&logo=github&logoColor=00d4ff" alt="GitHub" />
-  </a>
+  <img src="https://img.shields.io/badge/Infra-VPS%20Linux%20%7C%20Nginx-0e0e1c?style=for-the-badge&logo=linux&logoColor=00d4ff" alt="Linux VPS" />
   <img src="https://img.shields.io/badge/Status-Dispon%C3%ADvel-00c853?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status" />
   <img src="https://komarev.com/ghpvc/?username=LuizGustavo536&label=Visualiza%C3%A7%C3%B5es&color=0077ff&style=for-the-badge" alt="Contador de Visitas" />
 </div>
@@ -49,18 +47,17 @@
 ```javascript
 const luizGustavo = {
   nome: "Luiz Gustavo",
-  cargo: "Desenvolvedor Full Stack & Backend",
+  cargo: "Desenvolvedor Backend & Full Stack",
   localizacao: "Brasil 🇧🇷",
-  empresa: "New Fire",
-  website: "https://newfire.top",
+  infraestrutura: "VPS Linux Própria (Ubuntu/Debian), Nginx, PM2, Docker",
   especialidades: [
-    "APIs RESTful de Alto Desempenho",
-    "Autenticação & Segurança (JWT, OAuth)",
-    "Bots de Automação & Discord Services",
-    "Aplicações Web Modernas & Responsivas"
+    "APIs RESTful de Alto Desempenho com Node.js & Python",
+    "Servidores Dedicados, VPS Linux & Reverse Proxy Nginx",
+    "Processamento Assíncrono, Concorrência & Alta Vazão",
+    "Bots de Automação & Serviços Discord 24/7"
   ],
-  stackPrincipal: ["Python", "FastAPI", "Flask", "Node.js", "JavaScript"],
-  disponivelPara: ["Freelance", "Projetos Sob Demanda", "Parcerias"]
+  stackPrincipal: ["Node.js", "Python", "Linux VPS", "Nginx", "Docker", "FastAPI"],
+  disponivelPara: ["Projetos Desafiadores", "Freelance", "Soluções Sob Medida"]
 };
 ```
 
@@ -85,13 +82,13 @@ Confira alguns dos principais projetos públicos e soluções desenvolvidas:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="left">🔐 <a href="https://github.com/LuizGustavo536/JWT-Token-API">JWT-Token-API</a></h3>
-      <p>API robusta e veloz desenvolvida para geração de tokens JWT, autenticação e obtenção automatizada de dados de contas. Ideal para integração com bots, automações e painéis administrativos que exigem segurança e performance.</p>
+      <h3 align="left">⚡ <a href="https://github.com/LuizGustavo536/JWT-Token-API">API de Autenticação & Extração de Dados</a></h3>
+      <p>Serviço backend desenvolvido para geração automatizada de credenciais, validação segura e extração massiva de dados de contas. Criado com foco em alta vazão para alimentar bots, automações e sistemas com máxima performance.</p>
       <p>
+        <img src="https://img.shields.io/badge/Node.js-00c853?style=flat-square&logo=nodedotjs&logoColor=white" />
         <img src="https://img.shields.io/badge/Python-0077ff?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/JWT-00d4ff?style=flat-square&logo=json-web-tokens&logoColor=06060e" />
-        <img src="https://img.shields.io/badge/REST%20API-0e0e1c?style=flat-square" />
-        <img src="https://img.shields.io/badge/Security-00c853?style=flat-square" />
+        <img src="https://img.shields.io/badge/REST%20API-00d4ff?style=flat-square&logoColor=06060e" />
+        <img src="https://img.shields.io/badge/Automação-0e0e1c?style=flat-square" />
       </p>
       <p><a href="https://github.com/LuizGustavo536/JWT-Token-API"><strong>Ver Repositório ➜</strong></a></p>
     </td>
@@ -109,22 +106,22 @@ Confira alguns dos principais projetos públicos e soluções desenvolvidas:
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="left">🤖 Automação & Bots Discord</h3>
-      <p>Desenvolvimento de bots assíncronos e integrados a APIs privadas, com painéis de controle, verificação de contas, geração de chaves e sistemas automatizados de atendimento e entrega.</p>
+      <h3 align="left">🤖 Automação & Bots Discord 24/7</h3>
+      <p>Desenvolvimento de bots assíncronos integrados a APIs privadas e rodando diretamente na VPS Linux, com painéis de controle, verificação de contas, geração de chaves e atendimento automatizado ininterrupto.</p>
       <p>
         <img src="https://img.shields.io/badge/Discord.py-5865F2?style=flat-square&logo=discord&logoColor=white" />
         <img src="https://img.shields.io/badge/AsyncIO-0077ff?style=flat-square" />
-        <img src="https://img.shields.io/badge/Webhooks-00d4ff?style=flat-square" />
+        <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="left">⚡ Microsserviços & Cloud APIs</h3>
-      <p>Arquitetura e desenvolvimento de APIs em FastAPI e Flask, preparadas para implantação serverless (Vercel) e containers Docker, com rate limiting, validação de payload e logging estruturado.</p>
+      <h3 align="left">🐧 Infraestrutura em VPS Linux & APIs</h3>
+      <p>Arquitetura e implantação de microsserviços em servidores VPS Linux dedicados. Configuração completa de proxy reverso Nginx, gerenciamento de processos com PM2, containers Docker e SSL automatizado para latência mínima.</p>
       <p>
-        <img src="https://img.shields.io/badge/FastAPI-00d4ff?style=flat-square&logo=fastapi&logoColor=06060e" />
-        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux%20VPS-FCC624?style=flat-square&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
         <img src="https://img.shields.io/badge/Docker-0077ff?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Node.js-00c853?style=flat-square&logo=nodedotjs&logoColor=white" />
       </p>
     </td>
   </tr>
@@ -141,33 +138,33 @@ Confira alguns dos principais projetos públicos e soluções desenvolvidas:
 
 <div align="center">
 
-### Backend & Microsserviços
+### Backend & APIs de Alta Performance
+<img src="https://img.shields.io/badge/Node.js-0E0E1C?style=for-the-badge&logo=nodedotjs&logoColor=00C853" alt="Node.js" />
 <img src="https://img.shields.io/badge/Python-0E0E1C?style=for-the-badge&logo=python&logoColor=00D4FF" alt="Python" />
 <img src="https://img.shields.io/badge/FastAPI-0E0E1C?style=for-the-badge&logo=fastapi&logoColor=00D4FF" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Flask-0E0E1C?style=for-the-badge&logo=flask&logoColor=FFFFFF" alt="Flask" />
-<img src="https://img.shields.io/badge/Node.js-0E0E1C?style=for-the-badge&logo=nodedotjs&logoColor=00C853" alt="Node.js" />
-<img src="https://img.shields.io/badge/JWT-0E0E1C?style=for-the-badge&logo=jsonwebtokens&logoColor=00D4FF" alt="JWT" />
+<img src="https://img.shields.io/badge/Express.js-0E0E1C?style=for-the-badge&logo=express&logoColor=FFFFFF" alt="Express" />
 <img src="https://img.shields.io/badge/REST_APIs-0E0E1C?style=for-the-badge&logo=postman&logoColor=0077FF" alt="REST APIs" />
+<img src="https://img.shields.io/badge/WebSockets-0E0E1C?style=for-the-badge&logo=socketdotio&logoColor=00D4FF" alt="WebSockets" />
 
 <br/>
 
-### Frontend & Desenvolvimento Web
+### Servidores, VPS Linux & DevOps
+<img src="https://img.shields.io/badge/Linux-0E0E1C?style=for-the-badge&logo=linux&logoColor=F59E0B" alt="Linux" />
+<img src="https://img.shields.io/badge/Ubuntu-0E0E1C?style=for-the-badge&logo=ubuntu&logoColor=E95420" alt="Ubuntu" />
+<img src="https://img.shields.io/badge/Nginx-0E0E1C?style=for-the-badge&logo=nginx&logoColor=009639" alt="Nginx" />
+<img src="https://img.shields.io/badge/PM2-0E0E1C?style=for-the-badge&logo=pm2&logoColor=2B037A" alt="PM2" />
+<img src="https://img.shields.io/badge/Docker-0E0E1C?style=for-the-badge&logo=docker&logoColor=0077FF" alt="Docker" />
+<img src="https://img.shields.io/badge/Git-0E0E1C?style=for-the-badge&logo=git&logoColor=EF4444" alt="Git" />
+
+<br/>
+
+### Bancos de Dados & Frontend
+<img src="https://img.shields.io/badge/PostgreSQL-0E0E1C?style=for-the-badge&logo=postgresql&logoColor=0077FF" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/MongoDB-0E0E1C?style=for-the-badge&logo=mongodb&logoColor=00C853" alt="MongoDB" />
 <img src="https://img.shields.io/badge/JavaScript-0E0E1C?style=for-the-badge&logo=javascript&logoColor=F59E0B" alt="JavaScript" />
 <img src="https://img.shields.io/badge/React-0E0E1C?style=for-the-badge&logo=react&logoColor=00D4FF" alt="React" />
 <img src="https://img.shields.io/badge/HTML5-0E0E1C?style=for-the-badge&logo=html5&logoColor=E94560" alt="HTML5" />
 <img src="https://img.shields.io/badge/CSS3-0E0E1C?style=for-the-badge&logo=css3&logoColor=0077FF" alt="CSS3" />
-<img src="https://img.shields.io/badge/TailwindCSS-0E0E1C?style=for-the-badge&logo=tailwindcss&logoColor=00D4FF" alt="Tailwind" />
-
-<br/>
-
-### Banco de Dados, DevOps & Infraestrutura
-<img src="https://img.shields.io/badge/PostgreSQL-0E0E1C?style=for-the-badge&logo=postgresql&logoColor=0077FF" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/MongoDB-0E0E1C?style=for-the-badge&logo=mongodb&logoColor=00C853" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Docker-0E0E1C?style=for-the-badge&logo=docker&logoColor=0077FF" alt="Docker" />
-<img src="https://img.shields.io/badge/Git-0E0E1C?style=for-the-badge&logo=git&logoColor=EF4444" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub_Actions-0E0E1C?style=for-the-badge&logo=githubactions&logoColor=00D4FF" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/Vercel-0E0E1C?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Vercel" />
-<img src="https://img.shields.io/badge/Linux-0E0E1C?style=for-the-badge&logo=linux&logoColor=F59E0B" alt="Linux" />
 
 </div>
 
@@ -213,7 +210,7 @@ Confira alguns dos principais projetos públicos e soluções desenvolvidas:
 <!-- ========================================================================= -->
 ## 🤝 Vamos Conversar?
 
-Tem alguma ideia de projeto, precisa de uma API sob medida ou automação inteligente? Fique à vontade para entrar em contato:
+Tem alguma ideia de projeto, precisa de uma API sob medida ou automação inteligente em servidor Linux? Fique à vontade para entrar em contato:
 
 <div align="center">
   <a href="https://luizgustavo536.github.io/portfolio/" target="_blank">
