@@ -1,88 +1,103 @@
-<svg width="100%" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient (NewFire Palette) -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradient -->
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#06060e"/>
-      <stop offset="50%" stop-color="#090a18"/>
+      <stop offset="50%" stop-color="#0a0a16"/>
       <stop offset="100%" stop-color="#06060e"/>
     </linearGradient>
 
-    <!-- Waves Gradient -->
-    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06060e" stop-opacity="0.8"/>
-      <stop offset="35%" stop-color="#0077ff" stop-opacity="0.5"/>
-      <stop offset="70%" stop-color="#00d4ff" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#06060e" stop-opacity="0.8"/>
+    <!-- Cyan/Blue Brand Gradient -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0077ff"/>
     </linearGradient>
 
-    <linearGradient id="waveGrad2" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#06060e" stop-opacity="0.9"/>
-      <stop offset="40%" stop-color="#00d4ff" stop-opacity="0.35"/>
-      <stop offset="75%" stop-color="#0077ff" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#06060e" stop-opacity="0.9"/>
-    </linearGradient>
+    <!-- Subdued Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#121324" stroke-width="1" stroke-opacity="0.8"/>
+    </pattern>
 
-    <!-- Neon Glow Filter -->
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <!-- Radial Glows -->
+    <radialGradient id="glowTopLeft" cx="15%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottomRight" cx="85%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#0077ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0077ff" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <style>
-    .brand-title {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 52px;
-      font-weight: 800;
-      fill: #ffffff;
-      letter-spacing: -0.5px;
-    }
-    .brand-bracket {
-      fill: #00d4ff;
-    }
-    .brand-subtitle {
-      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-      font-size: 18px;
-      font-weight: 600;
-      fill: #00d4ff;
-      letter-spacing: 1px;
-    }
-    .brand-tech {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      font-weight: 500;
-      fill: #9aa0b8;
-      letter-spacing: 0.5px;
-    }
-  </style>
+  <!-- Base Background -->
+  <rect width="1200" height="280" rx="16" fill="url(#canvasBg)"/>
 
-  <!-- Canvas Background -->
-  <rect width="1200" height="240" fill="url(#bgGrad)"/>
+  <!-- Tech Grid Overlay -->
+  <rect width="1200" height="280" rx="16" fill="url(#gridPattern)"/>
 
-  <!-- Fluid Waves Layers -->
-  <path d="M0,130 C200,90 400,180 600,140 C800,100 1000,170 1200,120 L1200,240 L0,240 Z" fill="url(#waveGrad1)" />
-  <path d="M0,150 C250,190 500,120 750,160 C950,190 1100,140 1200,150 L1200,240 L0,240 Z" fill="url(#waveGrad2)" />
+  <!-- Radial Glow Accents -->
+  <rect width="1200" height="280" rx="16" fill="url(#glowTopLeft)"/>
+  <rect width="1200" height="280" rx="16" fill="url(#glowBottomRight)"/>
 
-  <!-- Top Accent Neon Line -->
-  <rect x="0" y="0" width="1200" height="3" fill="url(#waveGrad1)" />
+  <!-- Outer Card Border -->
+  <rect x="1" y="1" width="1198" height="278" rx="15" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
 
-  <!-- Main Title -->
-  <g filter="url(#neonGlow)">
-    <text x="600" y="90" text-anchor="middle" class="brand-title">
-      <tspan class="brand-bracket">&lt;</tspan>Luiz Gustavo<tspan class="brand-bracket"> /&gt;</tspan>
-    </text>
+  <!-- Top Accent Glowing Line -->
+  <rect x="250" y="0" width="700" height="2" fill="url(#brandGrad)"/>
+
+  <!-- Central Badge: Status & Role -->
+  <g transform="translate(600, 52)">
+    <rect x="-160" y="-14" width="320" height="28" rx="14" fill="#0e0e1c" stroke="#1a1a2e" stroke-width="1"/>
+    <circle cx="-138" cy="0" r="4" fill="#00c853"/>
+    <text x="-124" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#00d4ff" letter-spacing="1.5">BACKEND &amp; VPS LINUX ENGINEER</text>
   </g>
 
-  <!-- Subtitle -->
-  <text x="600" y="132" text-anchor="middle" class="brand-subtitle">
-    DESENVOLVEDOR BACKEND &amp; FULL STACK
+  <!-- Main Name Title -->
+  <text x="600" y="128" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="800" fill="#ffffff" letter-spacing="-1px">
+    Luiz Gustavo
   </text>
 
-  <!-- Tech Badges Line -->
-  <text x="600" y="165" text-anchor="middle" class="brand-tech">
-    Node.js  •  Python  •  VPS Linux  •  Nginx Reverse Proxy  •  PM2  •  Docker
+  <!-- Tagline / Mission -->
+  <text x="600" y="168" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="500" fill="#9aa0b8" letter-spacing="0.2px">
+    Arquitetura de APIs de Alta Vazão  •  Sistemas Concorrentes  •  Infraestrutura Linux em Produção
   </text>
+
+  <!-- Stack Pills Bar -->
+  <g transform="translate(600, 222)">
+    <!-- Pill 1: Node.js -->
+    <g transform="translate(-320, 0)">
+      <rect x="-55" y="-14" width="110" height="28" rx="6" fill="#0e0e1c" stroke="#1a1a2e"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#00c853">Node.js</text>
+    </g>
+
+    <!-- Pill 2: Python -->
+    <g transform="translate(-190, 0)">
+      <rect x="-55" y="-14" width="110" height="28" rx="6" fill="#0e0e1c" stroke="#1a1a2e"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#00d4ff">Python</text>
+    </g>
+
+    <!-- Pill 3: VPS Linux -->
+    <g transform="translate(-60, 0)">
+      <rect x="-58" y="-14" width="116" height="28" rx="6" fill="#0e0e1c" stroke="#1a1a2e"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#f59e0b">VPS Linux</text>
+    </g>
+
+    <!-- Pill 4: Nginx -->
+    <g transform="translate(70, 0)">
+      <rect x="-50" y="-14" width="100" height="28" rx="6" fill="#0e0e1c" stroke="#1a1a2e"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#00c853">Nginx</text>
+    </g>
+
+    <!-- Pill 5: Docker -->
+    <g transform="translate(190, 0)">
+      <rect x="-50" y="-14" width="100" height="28" rx="6" fill="#0e0e1c" stroke="#1a1a2e"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#0077ff">Docker</text>
+    </g>
+
+    <!-- Pill 6: PM2 -->
+    <g transform="translate(300, 0)">
+      <rect x="-45" y="-14" width="90" height="28" rx="6" fill="#0e0e1c" stroke="#1a1a2e"/>
+      <text x="0" y="4.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#c4a0ff">PM2</text>
+    </g>
+  </g>
 </svg>
