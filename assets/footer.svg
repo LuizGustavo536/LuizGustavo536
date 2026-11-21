@@ -1,0 +1,18 @@
+<svg width="100%" height="110" viewBox="0 0 1200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#0077ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06060e" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06060e" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#06060e" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Waves -->
+  <path d="M0,45 C280,5 560,75 840,35 C980,15 1100,55 1200,40 L1200,110 L0,110 Z" fill="url(#footerWaveGrad)" opacity="0.65" />
+  <path d="M0,65 C320,85 640,30 960,60 C1080,75 1150,55 1200,65 L1200,110 L0,110 Z" fill="url(#footerWaveGrad)" opacity="0.4" />
+  <rect y="107" width="1200" height="3" fill="#00d4ff" opacity="0.8" />
+</svg>

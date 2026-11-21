@@ -1,8 +1,8 @@
 <!-- ========================================================================= -->
-<!-- 🚀 CABEÇALHO ANIMADO (NEWFIRE DOCS PALETTE)                               -->
+<!-- 🚀 CABEÇALHO (NEWFIRE DOCS PALETTE)                                       -->
 <!-- ========================================================================= -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06060e,45:0077ff,80:00d4ff,100:06060e&height=220&section=header&text=Luiz%20Gustavo&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20Backend%20%26%20Full%20Stack%20%7C%20Node.js%20%7C%20Python%20%7C%20VPS%20Linux%20%7C%20Nginx%20%26%20Docker&descAlignY=62&descSize=17&animation=fadeIn" alt="Header Banner" />
+  <img width="100%" src="./assets/header.svg" alt="Luiz Gustavo | Backend & Full Stack Developer" />
 </div>
 
 <!-- ========================================================================= -->
@@ -227,8 +227,8 @@ Tem alguma ideia de projeto, precisa de uma API sob medida ou automação inteli
 <br/>
 
 <!-- ========================================================================= -->
-<!-- 🌊 RODAPÉ ANIMADO (NEWFIRE GRADIENT)                                      -->
+<!-- 🌊 RODAPÉ (NEWFIRE GRADIENT)                                              -->
 <!-- ========================================================================= -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0077ff,100:06060e&height=120&section=footer" alt="Footer Banner" />
+  <img width="100%" src="./assets/footer.svg" alt="Footer Banner" />
 </div>
